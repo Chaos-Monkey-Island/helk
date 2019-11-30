@@ -1,4 +1,4 @@
 steps:
-- name: 'gcr.io/$PROJECT_ID/docker-compose'
+- name: 'gcr.io/gcp-builder-project/docker-compose'
   args: ['up']
 tags: ['cloud-builders-community']
